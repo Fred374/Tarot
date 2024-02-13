@@ -8,13 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    CardsDatabase db;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        db = CardsDatabase.getDatabase(getApplicationContext());
         CardRepository repo = new CardRepository(this.getApplication());
         System.out.println("\nMain\n");
         repo.getCard(0).observe(this, card -> {
