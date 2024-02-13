@@ -3,8 +3,8 @@
 
     <item
         android:drawable="@mipmap/the_fool"
-        android:width="100dp"
-        android:height="175dp"
+        android:width="400dp"
+        android:height="700dp"
         />
 
 </layer-list >
