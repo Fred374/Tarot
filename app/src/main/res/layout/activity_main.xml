@@ -8,25 +8,22 @@
 
     <Button
         android:id="@+id/OneCard"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_margin="30dp"
+        style="@style/main_menu_button"
+        android:layout_weight="1"
         android:onClick="onClick1Card"
         android:text="Draw 1 Card" />
 
     <Button
         android:id="@+id/ThreeCard"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_margin="30dp"
+        style="@style/main_menu_button"
+        android:layout_weight="1"
         android:onClick="onClick3Card"
         android:text="Draw 3 Cards" />
 
     <Button
         android:id="@+id/FiveCard"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_margin="30dp"
+        style="@style/main_menu_button"
+        android:layout_weight="1"
         android:onClick="onClick5Card"
         android:text="Draw 5 Cards" />
 
