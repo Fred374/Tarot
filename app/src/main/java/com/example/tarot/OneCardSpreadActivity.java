@@ -1,9 +1,12 @@
 package com.example.tarot;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class OneCardSpreadActivity extends AppCompatActivity {
 
@@ -16,7 +19,10 @@ public class OneCardSpreadActivity extends AppCompatActivity {
             if (cards != null) {
                 TextView txt = findViewById(R.id.card1);
                 txt.setText(cards.get(0).getName());
-                txt.setCompoundDrawablesWithIntrinsicBounds(0, cards.get(0).getDraw_large(), 0, 0);
+
+                ImageView img = findViewById(R.id.card1_image);
+                Drawable drawable = ContextCompat.getDrawable(getApplicationContext(), cards.get(0).getDraw());
+                img.setImageDrawable(drawable);
             }
         });
     }
