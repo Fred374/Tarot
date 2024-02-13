@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {Card.class}, version = 2)
+@Database(entities = {Card.class}, version = 3)
 public abstract class CardsDatabase extends RoomDatabase {
 
     private static final int NUMBER_OF_THREADS = 4;

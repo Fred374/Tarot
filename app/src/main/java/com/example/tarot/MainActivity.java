@@ -16,8 +16,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        db = CardsDatabase.getDatabase(getApplicationContext());
         CardRepository repo = new CardRepository(this.getApplication());
+        System.out.println("\nMain\n");
         repo.getCard(0).observe(this, card -> {
-            if (card == null) {
+            if (card.isEmpty()) {
                 CardUtil.seedDatabase(this.getApplication());
             }
         });
