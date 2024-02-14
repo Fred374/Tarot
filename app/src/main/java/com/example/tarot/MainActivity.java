@@ -6,6 +6,9 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,9 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CardRepository repo = new CardRepository(this.getApplication());
-        System.out.println("\nMain\n");
-        repo.getCard(0).observe(this, card -> {
-            if (card.isEmpty()) {
+        Executor exec = Executors.newFixedThreadPool(4);
+        repo.getAll().observe(this, card -> {
+            if (card.size() != 78) {
+                exec.execute(() -> {
+                    repo.deleteAll();
+                });
                 CardUtil.seedDatabase(this.getApplication());
             }
         });
