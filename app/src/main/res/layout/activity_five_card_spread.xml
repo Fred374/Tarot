@@ -15,13 +15,14 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/card4"
             style="@style/card_small"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card4"
+                android:id="@+id/card4_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
                 android:text="Page of Wands"
@@ -44,13 +45,14 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/card1"
             style="@style/card_small"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card1"
+                android:id="@+id/card1_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
                 android:text="Queen of Wands" />
@@ -63,13 +65,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/card2"
             style="@style/card_small"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card2"
+                android:id="@+id/card2_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
                 android:text="King of Wands" />
@@ -82,13 +85,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/card3"
             style="@style/card_small"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card3"
+                android:id="@+id/card3_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
                 android:text="Knight of Wands" />
@@ -110,13 +114,14 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/card5"
             style="@style/card_small"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/card5"
+                android:id="@+id/card5_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
                 android:text="Ace of Wands"

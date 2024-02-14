@@ -8,15 +8,20 @@
     android:orientation="vertical"
     tools:context=".OneCardSpreadActivity">
 
-    <TextView
+    <LinearLayout
         android:id="@+id/card1"
-        style="@style/card_large_text"
-        android:layout_weight="2" />
+        style="@style/card_large">
 
-    <ImageView
-        android:id="@+id/card1_image"
-        style="@style/card_large_image"
-        android:layout_weight="8"
-        android:scaleType="centerInside" />
+        <TextView
+            android:id="@+id/card1_text"
+            style="@style/card_large_text"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:id="@+id/card1_image"
+            style="@style/card_large_image"
+            android:layout_weight="8"
+            android:scaleType="centerInside" />
+    </LinearLayout>
 
 </LinearLayout>

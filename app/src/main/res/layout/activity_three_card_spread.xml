@@ -7,13 +7,14 @@
     tools:context=".ThreeCardSpreadActivity">
 
     <LinearLayout
+        android:id="@+id/card1"
         style="@style/card_small"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/card1"
+            android:id="@+id/card1_text"
             style="@style/card_small_text"
             android:layout_weight="2" />
 
@@ -25,13 +26,14 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/card2"
         style="@style/card_small"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/card2"
+            android:id="@+id/card2_text"
             style="@style/card_small_text"
             android:layout_weight="2" />
 
@@ -43,13 +45,14 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/card3"
         style="@style/card_small"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/card3"
+            android:id="@+id/card3_text"
             style="@style/card_small_text"
             android:layout_weight="2" />
 
