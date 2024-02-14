@@ -1,78 +1,78 @@
-0,The Fool,the_fool
-1,The Magician,the_magician
-2,The High Priestess,the_high_priestess
-3,The Empress,the_empress
-4,The Emperor,the_emperor
-5,The Hierophant,the_hierophant
-6,The Lovers,the_lovers
-7,The Chariot,the_chariot
-8,Strength,strength
-9,The Hermit,the_hermit
-10,Wheel of Fortune,wheel_of_fortune
-11,Justice,justice
-12,The Hanged Man,the_hanged_man
-13,Death,death
-14,Temperance,temperance
-15,The Devil,the_devil
-16,The Tower,the_tower
-17,The Star,the_star
-18,The Moon,the_moon
-19,The Sun,the_sun
-20,Judgement,judgement
-21,The World,the_world
-22,Ace of Wands ,ace_of_wands
-23,2 of Wands,wands_2
-24,3 of Wands,wands_3
-25,4 of Wands,wands_4
-26,5 of Wands,wands_5
-27,6 of Wands,wands_6
-28,7 of Wands,wands_7
-29,8 of Wands,wands_8
-30,9 of Wands,wands_9
-31,10 of Wands,wands_10
-32,Page of Wands ,page_of_wands
-33,Knight of Wands ,knight_of_wands
-34,Queen of Wands ,queen_of_wands
-35,King of Wands ,king_of_wands
-36,Ace of Pentacles ,ace_of_pentacles
-37,2 of Pentacles,pentacles_2
-38,3 of Pentacles,pentacles_3
-39,4 of Pentacles,pentacles_4
-40,5 of Pentacles,pentacles_5
-41,6 of Pentacles,pentacles_6
-42,7 of Pentacles,pentacles_7
-43,8 of Pentacles,pentacles_8
-44,9 of Pentacles,pentacles_9
-45,10 of Pentacles,pentacles_10
-46,Page of Pentacles ,page_of_pentacles
-47,Knight of Pentacles ,knight_of_pentacles
-48,Queen of Pentacles ,queen_of_pentacles
-49,King of Pentacles ,king_of_pentacles
-50,Ace of Swords ,ace_of_swords
-51,2 of Swords,swords_2
-52,3 of Swords,swords_3
-53,4 of Swords,swords_4
-54,5 of Swords,swords_5
-55,6 of Swords,swords_6
-56,7 of Swords,swords_7
-57,8 of Swords,swords_8
-58,9 of Swords,swords_9
-59,10 of Swords,swords_10
-60,Page of Swords ,page_of_swords
-61,Knight of Swords ,knight_of_swords
-62,Queen of Swords ,queen_of_swords
-63,King of Swords ,king_of_swords
-64,Ace of Cups ,ace_of_cups
-65,2 of Cups,cups_2
-66,3 of Cups,cups_3
-67,4 of Cups,cups_4
-68,5 of Cups,cups_5
-69,6 of Cups,cups_6
-70,7 of Cups,cups_7
-71,8 of Cups,cups_8
-72,9 of Cups,cups_9
-73,10 of Cups,cups_10
-74,Page of Cups ,page_of_cups
-75,Knight of Cups ,knight_of_cups
-76,Queen of Cups ,queen_of_cups
-77,King of Cups ,king_of_cups
+0;The Fool;the_fool;The Fool card in tarot symbolizes new beginnings, innocence, and spontaneity. Depicted as a young traveler stepping off a cliff, he carries a small pack and a flower, representing optimism and adventure. Unconcerned with the future, he embodies trust and leaps into the unknown, urging us to embrace the journey with open hearts and minds.
+1;The Magician;the_magician;The Magician card in tarot embodies power, skill, and manifestation. Positioned with one hand raised to the heavens and the other pointing to the earth, he channels energy from the cosmos to the physical realm. The symbols on his table represent the elements—earth, air, fire, water—suggesting mastery over the material world. He signifies creativity, potential, and the ability to turn dreams into reality.
+2;The High Priestess;the_high_priestess;The High Priestess card in tarot symbolizes intuition, mystery, and inner wisdom. Seated between two pillars, she guards the veil of knowledge, representing the subconscious mind and the unseen realms. Holding a scroll, she encourages introspection and deeper understanding. She embodies the power of intuition and the secrets of the universe, urging us to listen to our inner voice and trust our instincts.
+3;The Empress;the_empress;The Empress card in tarot embodies abundance, nurturing, and fertility. Seated on a throne amidst lush nature, she represents motherhood, creativity, and sensuality. Adorned with a crown of stars and surrounded by symbols of growth, she signifies the birth of new ideas and the nurturing of life. She encourages us to embrace our nurturing instincts, cultivate beauty, and connect with the natural world.
+4;The Emperor;the_emperor;The Emperor card in tarot symbolizes authority, stability, and structure. Seated on a throne adorned with ram's heads, he represents power and control. His armor signifies protection, while the orb and scepter signify his dominion over the material world. He embodies leadership, discipline, and the establishment of order. He urges us to take charge of our lives with responsibility and strategic planning.
+5;The Hierophant;the_hierophant;The Hierophant card in tarot embodies tradition, spirituality, and guidance. Seated between two pillars, he represents a bridge between the divine and the material worlds. His raised hand signifies blessings and teachings, while the crossed keys symbolize hidden knowledge. He signifies adherence to religious or cultural norms, seeking wisdom through established institutions. He encourages us to honor tradition while seeking spiritual enlightenment.
+6;The Lovers;the_lovers;The Lovers card in tarot symbolizes love, harmony, and choice. Depicting a man and woman standing beneath an angel, it represents union and duality. The tree of knowledge behind them suggests the potential for growth and understanding. It embodies deep connections, partnerships, and the power of choice in relationships. It urges us to make decisions from the heart and seek balance in love and life.
+7;The Chariot;the_chariot;The Chariot card in tarot signifies determination, willpower, and victory. Depicted as a warrior in a chariot pulled by two sphinxes, it represents control and direction. The black and white sphinxes symbolize opposing forces under command. It embodies triumph over obstacles, harnessing inner strength to overcome challenges. It urges us to stay focused, driven, and confident on our journey forward.
+8;Strength;strength;The Strength card in tarot symbolizes courage, inner strength, and resilience. Depicting a woman gently taming a lion, it represents control over primal instincts. It embodies compassion, patience, and overcoming challenges with grace. It urges us to find strength within ourselves to face life's trials with courage and kindness.
+9;The Hermit;the_hermit;The Hermit card in tarot symbolizes introspection, solitude, and wisdom. Depicted as an old man with a lantern, he seeks inner truth in isolation. His journey represents self-reflection, seeking answers within. He embodies spiritual guidance and the quest for enlightenment. It urges us to retreat temporarily to find clarity and deeper understanding.
+10;Wheel of Fortune;wheel_of_fortune;The Wheel of Fortune card in tarot symbolizes cycles, fate, and change. Depicted as a wheel with figures ascending and descending, it represents the ever-turning wheel of life. It embodies destiny, luck, and the unpredictable nature of existence. It urges us to embrace change and understand that life operates in cycles of ups and downs.
+11;Justice;justice;The Justice card in tarot symbolizes fairness, balance, and accountability. Depicted as a figure holding scales and a sword, it represents impartiality and truth. It embodies legal matters, ethical decisions, and the consequences of actions. It urges us to seek fairness and integrity in our dealings and accept responsibility for our choices.
+12;The Hanged Man;the_hanged_man;The Hanged Man card in tarot symbolizes surrender, suspension, and enlightenment. Depicted hanging upside down by one foot, he embraces a new perspective. It embodies sacrifice, letting go, and spiritual awakening. It urges us to pause, release control, and view situations from a different angle to find enlightenment and growth.
+13;Death;death;The Death card in tarot signifies transformation and endings. Depicted as a skeleton riding a horse, it symbolizes the natural cycle of life. It urges acceptance of change and letting go of the past to make way for new beginnings.
+14;Temperance;temperance;The Temperance card in tarot represents balance, harmony, and moderation. Depicted as an angel pouring liquid between two cups, it symbolizes blending opposites to find equilibrium. It urges patience and temperance in decision-making, fostering inner peace and spiritual growth.
+15;The Devil;the_devil;The Devil card in tarot represents bondage, temptation, and materialism. Depicted as a figure with horns and bat wings, it symbolizes the shadow self and worldly desires. It warns against succumbing to negative influences and urges liberation from self-imposed limitations.
+16;The Tower;the_tower;The Tower card in tarot signifies sudden change, upheaval, and revelation. Depicted as a tower struck by lightning, it represents the collapse of old structures. It warns of chaos and destruction but promises new beginnings and enlightenment amidst the rubble.
+17;The Star;the_star;The Star card in tarot symbolizes hope, inspiration, and renewal. Depicted as a woman pouring water into a pool, it represents spiritual guidance and inner healing. It offers a beacon of optimism, reminding us to have faith in the universe and follow our dreams.
+18;The Moon;the_moon;The Moon card in tarot signifies intuition, illusion, and subconscious. Depicted with a moon, a dog, and a wolf howling, it represents hidden fears and mysteries. It warns of confusion but urges trust in intuition to navigate through uncertainty towards enlightenment.
+19;The Sun;the_sun;The Sun card in tarot symbolizes joy, success, and vitality. Depicted with a radiant sun shining over two children, it represents enlightenment and happiness. It signifies clarity, optimism, and the promise of a new day filled with abundance and positivity.
+20;Judgement;judgement;The Judgement card in tarot signifies rebirth, awakening, and redemption. Depicted with angels blowing trumpets, it represents spiritual awakening and self-reflection. It urges us to embrace transformation, release the past, and answer the call to higher purpose and self-discovery.
+21;The World;the_world;The World card in tarot symbolizes fulfillment, completion, and unity. Depicted as a dancer encircled by a wreath, it represents wholeness and achievement. It signifies accomplishment of goals, harmony, and the cyclical nature of existence. It urges embracing connections and celebrating life's journeys.
+22;Ace of Wands;ace_of_wands;The Ace of Wands represents inspiration, potential, and new beginnings. Depicted as a hand holding a wand, it symbolizes creative energy and opportunities for growth and innovation. It urges action and embracing passion to ignite new ventures.
+23;2 of Wands;wands_2;The Two of Wands signifies planning, ambition, and decisions. Depicted with a figure holding a globe, it symbolizes contemplating future paths and possibilities. It urges boldness in pursuing goals and expanding horizons with confidence.
+24;3 of Wands;wands_3;The Three of Wands signifies foresight, exploration, and expansion. Depicted with a figure overlooking the horizon, it symbolizes anticipation of success and growth. It urges perseverance and strategic planning to seize opportunities and manifest dreams.
+25;4 of Wands;wands_4;The Four of Wands symbolizes celebration, stability, and harmony. Depicted with figures dancing beneath floral arches, it represents joyful gatherings and achievements. It signifies a time of contentment, unity, and fulfillment in relationships or projects.
+26;5 of Wands;wands_5;The Five of Wands signifies conflict, competition, and chaos. Depicted with figures in a struggle, it symbolizes clashes of ego or differing opinions. It urges finding common ground amidst discord and fostering cooperation to overcome challenges and achieve unity.
+27;6 of Wands;wands_6;The Six of Wands symbolizes victory, recognition, and confidence. Depicted with a figure riding triumphantly on a horse, it represents accomplishment and public acclaim. It signifies overcoming obstacles and receiving acknowledgment for hard work or leadership.
+28;7 of Wands;wands_7;The Seven of Wands signifies courage, perseverance, and standing your ground. Depicted with a figure defending a position, it symbolizes facing challenges and asserting dominance. It urges determination and resilience in the face of opposition, advocating for your beliefs with strength and conviction.
+29;8 of Wands;wands_8;The Eight of Wands symbolizes swift action, progress, and movement. Depicted with wands flying through the air, it represents rapid developments and opportunities. It urges seizing the moment and embracing change, as well as staying focused to achieve goals efficiently.
+30;9 of Wands;wands_9;The Nine of Wands symbolizes resilience, perseverance, and strength. Depicted with a figure standing guard, it represents facing challenges with determination. It urges resilience in the face of adversity, advising to maintain defenses while staying steadfast toward goals despite setbacks.
+31;10 of Wands;wands_10;The Ten of Wands symbolizes burden, responsibility, and overload. Depicted with a figure carrying a heavy load, it represents feeling overwhelmed by obligations. It urges delegation or reassessment of priorities to avoid burnout and regain control over tasks and commitments.
+32;Page of Wands;page_of_wands;The Page of Wands symbolizes enthusiasm, exploration, and new beginnings. Depicted as a youthful figure holding a wand, it represents curiosity and creative potential. It urges embracing opportunities with excitement and openness to new experiences or ventures.
+33;Knight of Wands;knight_of_wands;The Knight of Wands symbolizes passion, adventure, and impulsiveness. Depicted as a daring figure on horseback, it represents taking swift action and pursuing desires with vigor. It urges embracing spontaneity and courageously chasing dreams or goals with determination and enthusiasm.
+34;Queen of Wands;queen_of_wands;The Queen of Wands symbolizes confidence, vitality, and leadership. Depicted as a charismatic figure holding a wand, she exudes warmth and strength. She represents creativity, passion, and independence. She urges embracing one's inner fire, standing tall in convictions, and leading with charisma and enthusiasm.
+35;King of Wands;king_of_wands;The King of Wands symbolizes charisma, vision, and leadership. Depicted as a confident figure holding a wand, he embodies strength and authority. He represents innovation, passion, and taking bold action. He urges embracing challenges with determination, inspiring others with his vision, and leading by example with unwavering conviction.
+36;Ace of Pentacles;ace_of_pentacles;The Ace of Pentacles symbolizes opportunity, prosperity, and new beginnings in the material realm. Depicted as a hand emerging from a cloud, offering a pentacle, it signifies potential for financial or material abundance. It urges seizing opportunities for stability, growth, and practical achievement.
+37;2 of Pentacles;pentacles_2;The Two of Pentacles symbolizes balance, adaptability, and juggling priorities. Depicted with a figure balancing two pentacles, it represents managing multiple responsibilities or resources. It urges flexibility in handling life's fluctuations and finding harmony amidst change.
+38;3 of Pentacles;pentacles_3;The Three of Pentacles symbolizes collaboration, craftsmanship, and teamwork. Depicted with figures working together on a project, it represents skilled effort and mutual support. It signifies progress through cooperation and dedication to achieving shared goals.
+39;4 of Pentacles;pentacles_4;The Four of Pentacles symbolizes security, stability, and possessiveness. Depicted with a figure holding onto pentacles tightly, it represents material wealth and reluctance to share or let go. It urges finding a balance between financial stability and generosity, and caution against excessive attachment to possessions.
+40;5 of Pentacles;pentacles_5;The Five of Pentacles symbolizes hardship, loss, and financial struggle. Depicted with figures outside a church in the cold, it represents feeling abandoned or lacking resources. It urges seeking support during tough times, reminding that help is available if one reaches out, and fostering resilience to overcome adversity.
+41;6 of Pentacles;pentacles_6;The Six of Pentacles symbolizes generosity, charity, and balance. Depicted with a figure giving to others, it represents sharing wealth and resources. It signifies finding harmony in giving and receiving, as well as cultivating compassion and fairness in interactions with others.
+42;7 of Pentacles;pentacles_7;The Seven of Pentacles symbolizes patience, assessment, and investment. Depicted with a figure examining plants, it represents waiting for growth and evaluating progress. It urges persistence in long-term endeavors, trusting the process, and making adjustments as needed to yield fruitful results.
+43;8 of Pentacles;pentacles_8;The Eight of Pentacles symbolizes diligence, skill, and craftsmanship. Depicted with a figure meticulously working on pentacles, it represents dedication to mastery and improvement. It signifies honing skills through hard work and attention to detail, striving for excellence in one's craft or profession.
+44;9 of Pentacles;pentacles_9;The Nine of Pentacles symbolizes independence, luxury, and self-sufficiency. Depicted with a figure enjoying abundance in a lush garden, it represents financial security and personal fulfillment. It signifies reaping the rewards of hard work and embracing a life of comfort and leisure.
+45;10 of Pentacles;pentacles_10;The Ten of Pentacles symbolizes wealth, inheritance, and long-term success. Depicted with figures celebrating in front of a grand estate, it represents generational prosperity and legacy. It signifies achieving security and fulfillment through familial and material abundance, as well as finding joy in shared heritage and traditions.
+46;Page of Pentacles;page_of_pentacles;The Page of Pentacles symbolizes ambition, diligence, and potential in the material realm. Depicted as a youthful figure holding a pentacle, it represents a new venture or opportunity for financial or practical growth. It urges embracing curiosity and learning to develop skills or pursue goals with dedication and enthusiasm.
+47;Knight of Pentacles;knight_of_pentacles;The Knight of Pentacles symbolizes reliability, responsibility, and practicality. Depicted as a figure on horseback, he embodies a steady and methodical approach to achieving goals. He represents dedication to work, perseverance, and a commitment to long-term success. He urges patience and thoroughness in all endeavors, prioritizing stability and tangible results.
+48;Queen of Pentacles;queen_of_pentacles;The Queen of Pentacles symbolizes nurturing, abundance, and practicality. Depicted as a compassionate figure surrounded by nature, she represents financial security and domestic harmony. She embodies a strong sense of responsibility, providing support and stability to those around her. She urges embracing the comforts of home and finding fulfillment in nurturing others while maintaining a grounded and resourceful approach to life.
+49;King of Pentacles;king_of_pentacles;The King of Pentacles symbolizes abundance, stability, and worldly success. Depicted as a prosperous figure seated on a throne, he embodies financial security and material achievement. He represents mastery over resources, sound investments, and a disciplined approach to wealth management. He urges embracing opportunities for growth and utilizing practical wisdom to build a solid foundation for long-term prosperity.
+50;Ace of Swords;ace_of_swords;The Ace of Swords symbolizes clarity, truth, and mental breakthroughs. Depicted with a hand holding a sword, it represents new ideas or insights cutting through confusion. It signifies intellectual clarity, mental strength, and the power of truth and reason. It urges facing challenges with courage, seeking truth, and using intellect to overcome obstacles.
+51;2 of Swords;swords_2;The Two of Swords symbolizes indecision, stalemate, and inner conflict. Depicted with a figure blindfolded and holding two crossed swords, it represents a need to make a difficult choice or find balance between opposing forces. It urges finding clarity through introspection, weighing options carefully, and making decisions with a clear mind and open heart.
+52;3 of Swords;swords_3;The Three of Swords symbolizes heartache, pain, and sorrow. Depicted with three swords piercing a heart, it represents emotional upheaval and grief. It urges facing and processing painful truths or experiences to facilitate healing and growth. It reminds that while heartache is inevitable, it's essential to acknowledge and release emotional pain to move forward with resilience and understanding.
+53;4 of Swords;swords_4;The Four of Swords symbolizes rest, recuperation, and contemplation. Depicted with a figure resting in prayer or meditation, it represents taking a break from stress or conflict to recharge mentally and spiritually. It urges prioritizing self-care, seeking inner peace, and gaining clarity through reflection to prepare for future challenges with renewed strength and clarity.
+54;5 of Swords;swords_5;The Five of Swords symbolizes conflict, defeat, and discord. Depicted with figures in a tense standoff, it represents victory at a cost and feelings of bitterness or resentment. It urges acceptance of losses or setbacks, recognizing when to walk away from conflict, and learning from experiences to avoid further harm or hostility.
+55;6 of Swords;swords_6;The Six of Swords symbolizes transition, moving on, and finding peace. Depicted with figures traveling in a boat, it represents leaving behind troubled waters for calmer shores. It signifies a journey toward healing, clarity, and emotional stability. It urges embracing change, trusting the process, and seeking solace in new beginnings and brighter horizons.
+56;7 of Swords;swords_7;The Seven of Swords symbolizes deception, betrayal, and stealth. Depicted with a figure sneaking away with stolen swords, it represents dishonesty or deceitful behavior. It urges caution against being misled or manipulated and encourages vigilance in protecting one's interests. It advises facing truth and confronting dishonesty to maintain integrity and avoid unnecessary conflict or loss.
+57;8 of Swords;swords_8;The Eight of Swords symbolizes restriction, self-imposed limitations, and feeling trapped. Depicted with a figure blindfolded and surrounded by swords, it represents mental entrapment and powerlessness. It urges recognizing self-imposed obstacles and finding the courage to break free from limiting beliefs or situations. It reminds that liberation lies in acknowledging fears and embracing new perspectives to navigate challenges with clarity and confidence.
+58;9 of Swords;swords_9;The Nine of Swords symbolizes anxiety, fear, and worry. Depicted with a figure sitting up in bed with hands on face, it represents inner turmoil and distress. It urges confronting and addressing worries, rather than letting them consume. It advises seeking support, finding ways to ease the mind, and trusting that solutions will emerge to alleviate concerns.
+59;10 of Swords;swords_10;The Ten of Swords symbolizes betrayal, rock bottom, and painful endings. Depicted with a figure lying face-down with ten swords in their back, it represents reaching a point of total defeat or downfall. It urges acceptance of harsh truths, acknowledging that things can't get worse, and finding the courage to let go of what no longer serves. It signifies the end of a painful chapter, paving the way for new beginnings and growth.
+60;Page of Swords;page_of_swords;The Page of Swords symbolizes curiosity, intellect, and vigilance. Depicted as a young figure holding a sword, it represents a thirst for knowledge and new ideas. It signifies intellectual curiosity, sharp wit, and a readiness to confront challenges with agility and determination. It urges embracing curiosity, staying alert to new opportunities, and using mental agility to navigate obstacles with confidence.
+61;Knight of Swords;knight_of_swords;The Knight of Swords symbolizes action, ambition, and assertiveness. Depicted as a figure charging forward on horseback with a sword raised, it represents swift movement and determination. It signifies a bold and direct approach to challenges, often with a sense of urgency or impulsiveness. It urges embracing change, pursuing goals with determination, and facing obstacles head-on with confidence and decisiveness.
+62;Queen of Swords;queen_of_swords;The Queen of Swords symbolizes clarity, independence, and intellect. Depicted as a figure holding a sword and seated with a stern expression, she embodies sharp wit and discernment. She signifies clear communication, rational thinking, and a no-nonsense approach to life. She urges embracing honesty, setting boundaries, and making decisions based on logic and reason rather than emotion.
+63;King of Swords;king_of_swords;The King of Swords symbolizes intellect, authority, and integrity. Depicted as a figure holding a sword and seated with a commanding presence, he embodies wisdom and leadership. He signifies rational thinking, clear communication, and decisive action. He urges embracing logic, upholding principles, and using intellect to navigate challenges with fairness and integrity.
+64;Ace of Cups;ace_of_cups;The Ace of Cups symbolizes love, new emotions, and spiritual abundance. Depicted as a cup overflowing with water and a dove holding a communion wafer or host, it represents the potential for deep emotional fulfillment and spiritual awakening. It urges opening the heart to love, compassion, and connection with oneself and others.
+65;2 of Cups;cups_2;The Two of Cups symbolizes partnership, harmony, and mutual attraction. Depicted with two figures exchanging cups, it represents a deep emotional bond and shared understanding between individuals. It signifies the beginning of a loving relationship or the strengthening of existing connections. It urges embracing unity, cooperation, and mutual support in relationships to foster growth and harmony.
+66;3 of Cups;cups_3;The Three of Cups symbolizes celebration, friendship, and joy. Depicted with three figures raising their cups in a toast, it represents communal happiness and shared experiences. It signifies gatherings, reunions, and rejoicing in the company of loved ones. It urges embracing connections, fostering camaraderie, and expressing gratitude for the abundance of love and support in life.
+67;4 of Cups;cups_4;The Four of Cups symbolizes apathy, discontent, and contemplation. Depicted with a figure sitting under a tree, seemingly uninterested in the cups offered, it represents feelings of dissatisfaction or boredom. It signifies introspection, soul-searching, and the need to reassess one's priorities or perspective. It urges acknowledging and addressing emotional stagnation to rediscover appreciation for the blessings in life.
+68;5 of Cups;cups_5;The Five of Cups symbolizes loss, regret, and disappointment. Depicted with a figure mourning over spilled cups while two remain upright, it represents dwelling on past failures or losses. It signifies feelings of sadness, grief, or missed opportunities. It urges acceptance of what cannot be changed, finding silver linings in adversity, and focusing on the potential for renewal and growth despite setbacks.
+69;6 of Cups;cups_6;The Six of Cups symbolizes nostalgia, innocence, and happy memories. Depicted with two figures exchanging cups filled with flowers, it represents a connection to the past and cherished childhood memories. It signifies innocence, simplicity, and a sense of emotional security. It urges embracing nostalgia, finding joy in simple pleasures, and fostering a childlike sense of wonder and optimism in life.
+70;7 of Cups;cups_7;The Seven of Cups symbolizes choices, illusions, and fantasies. Depicted with a figure gazing at multiple cups with different symbols inside, it represents a plethora of options or dreams. It signifies confusion, indecision, and the need to discern between reality and fantasy. It urges prioritizing goals, staying grounded in reality, and making decisions based on practicality rather than wishful thinking.
+71;8 of Cups;cups_8;The Eight of Cups symbolizes transition, moving on, and emotional growth. Depicted with a figure walking away from a row of upright cups, it represents leaving behind the familiar to pursue inner fulfillment or a higher calling. It signifies introspection, soul-searching, and the courage to follow one's heart, even if it means letting go of attachments or relationships. It urges embracing change, trusting intuition, and embarking on a journey of self-discovery and personal fulfillment.
+72;9 of Cups;cups_9;The Nine of Cups symbolizes contentment, satisfaction, and emotional fulfillment. Depicted with a figure surrounded by nine cups arranged in a crescent shape, it represents a sense of abundance and happiness. It signifies achieving personal goals, material and emotional well-being, and a deep sense of gratification. It urges embracing gratitude, celebrating achievements, and finding joy in life's blessings.
+73;10 of Cups;cups_10;The Ten of Cups symbolizes happiness, harmony, and emotional fulfillment. Depicted with a family celebrating under a rainbow, it represents joyous relationships and domestic bliss. It signifies deep emotional connections, love, and shared happiness with loved ones. It urges embracing love, fostering harmony, and appreciating the abundance of love and contentment in life.
+74;Page of Cups;page_of_cups;The Page of Cups symbolizes creativity, intuition, and new beginnings in emotions. Depicted as a youthful figure holding a cup with a fish emerging, it represents a budding awareness of feelings and artistic inspiration. It signifies emotional sensitivity, imaginative potential, and receptivity to new experiences. It urges embracing intuition, exploring creative pursuits, and being open to the messages of the heart.
+75;Knight of Cups;knight_of_cups;The Knight of Cups symbolizes romance, imagination, and charm. Depicted as a figure on horseback with a cup in hand, he embodies a dreamy and idealistic nature. He signifies emotional depth, romantic pursuits, and a quest for emotional fulfillment. He urges following the heart's desires, embracing creative inspiration, and pursuing dreams with passion and sensitivity.
+76;Queen of Cups;queen_of_cups;The Queen of Cups symbolizes compassion, intuition, and emotional depth. Depicted as a serene figure holding a cup, she embodies empathy and sensitivity. She represents nurturing relationships, intuition, and inner wisdom. She urges embracing empathy, trusting intuition, and fostering emotional connections with others with kindness and understanding.
+77;King of Cups;king_of_cups;The King of Cups symbolizes emotional balance, compassion, and wisdom. Depicted as a figure seated on a throne with a cup, he embodies mastery over emotions and empathy. He represents emotional maturity, integrity, and a calm demeanor. He urges leading with compassion, maintaining emotional stability, and providing support and guidance to others with understanding and wisdom.
