@@ -1,8 +1,13 @@
 package com.example.tarot;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class CardInformation extends AppCompatActivity {
 
@@ -10,5 +15,21 @@ public class CardInformation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_information);
+        Intent i = getIntent();
+        int id = i.getIntExtra("card_id", 0);
+        CardRepository repo = new CardRepository(getApplication());
+        repo.getCard(id).observe(this, card -> {
+            if (card != null) {
+                TextView txt = findViewById(R.id.card_name);
+                txt.setText(card.get(0).getName());
+
+                ImageView img = findViewById(R.id.card_image);
+                Drawable drawable = ContextCompat.getDrawable(getApplicationContext(), card.get(0).getDraw());
+                img.setImageDrawable(drawable);
+
+                TextView desc = findViewById(R.id.card_description);
+                desc.setText(card.get(0).getDescription());
+            }
+        });
     }
 }

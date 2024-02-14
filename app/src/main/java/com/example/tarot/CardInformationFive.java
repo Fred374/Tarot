@@ -1,15 +1,15 @@
 package com.example.tarot;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class CardInformation extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+
+public class CardInformationFive extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
