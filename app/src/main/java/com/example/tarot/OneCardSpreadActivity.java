@@ -1,7 +1,9 @@
 package com.example.tarot;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,7 +19,10 @@ public class OneCardSpreadActivity extends AppCompatActivity {
         CardRepository repo = new CardRepository(getApplication());
         repo.getCard((int) (Math.random() * 78)).observe(this, cards -> {
             if (cards != null) {
-                TextView txt = findViewById(R.id.card1);
+                View view = findViewById(R.id.card1);
+                view.setTag(cards.get(0).getId());
+
+                TextView txt = findViewById(R.id.card1_text);
                 txt.setText(cards.get(0).getName());
 
                 ImageView img = findViewById(R.id.card1_image);
@@ -25,5 +30,11 @@ public class OneCardSpreadActivity extends AppCompatActivity {
                 img.setImageDrawable(drawable);
             }
         });
+    }
+
+    public void onClick(View view) {
+        Intent i = new Intent(this, CardInformation.class);
+        i.putExtra("card_id", (Integer) view.getTag());
+        startActivity(i);
     }
 }
