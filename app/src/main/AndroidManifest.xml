@@ -13,8 +13,51 @@
         tools:targetApi="31">
 
         <activity
+            android:name=".CardInformation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:parentActivityName=".OneCardSpreadActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OneCardSpreadActivity" />
+            <intent-filter>
+                <action android:name="com.example.tarot.CardInformation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CardInformationThree"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ThreeCardSpreadActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ThreeCardSpreadActivity" />
+            <intent-filter>
+                <action android:name="com.example.tarot.CardInformationThree" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CardInformationFive"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:parentActivityName=".FiveCardSpreadActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FiveCardSpreadActivity" />
+            <intent-filter>
+                <action android:name="com.example.tarot.CardInformationFive" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".OneCardSpreadActivity"
             android:exported="false"
+            android:launchMode="singleTop"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -28,6 +71,7 @@
         <activity
             android:name=".FiveCardSpreadActivity"
             android:exported="false"
+            android:launchMode="singleTop"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -41,6 +85,7 @@
         <activity
             android:name=".ThreeCardSpreadActivity"
             android:exported="false"
+            android:launchMode="singleTop"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -53,7 +98,8 @@
 
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
