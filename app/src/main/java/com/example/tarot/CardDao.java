@@ -20,6 +20,9 @@ public interface CardDao {
     @Delete
     void delete(Card card);
 
+    @Query("DELETE FROM cards")
+    void deleteAll();
+
     @Query("SELECT * FROM cards")
     LiveData<List<Card>> getAll();
 

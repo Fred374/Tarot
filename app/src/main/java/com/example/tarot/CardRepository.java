@@ -20,11 +20,19 @@ public class CardRepository {
         return dao.getCard(id);
     }
 
+    public LiveData<List<Card>> getAll() {
+        return dao.getAll();
+    }
+
     public void insertAll(Card... cards) {
         dao.insertAll(cards);
     }
 
     public void insertAll(List<Card> cards) {
         dao.insertAll(cards);
+    }
+
+    public void deleteAll() {
+        dao.deleteAll();
     }
 }

@@ -22,14 +22,11 @@ public class CardUtil {
             BufferedReader buffer = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
             String line;
             List<Card> cards = new ArrayList<>();
-            System.out.println("\n\n\n\n HELLO \n\n\n\n");
             while ((line = buffer.readLine()) != null) {
-                System.out.println("\n" + line + "\n");
-                String[] str = line.split(",");
-                System.out.println("\n" + str[0] + "\n");
+                String[] str = line.split(";");
+                System.out.println(str[0] + " " + str[1]);
                 int resId = app.getResources().getIdentifier(str[2], "drawable", app.getPackageName());
-                int resId_large = app.getResources().getIdentifier(str[2] + "_large", "drawable", app.getPackageName());
-                cards.add(new Card(Integer.parseInt(str[0]), str[1], resId, resId_large));
+                cards.add(new Card(Integer.parseInt(str[0]), str[1], resId, str[3]));
             }
             buffer.close();
             in.close();

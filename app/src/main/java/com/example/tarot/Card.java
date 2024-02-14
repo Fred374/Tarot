@@ -1,10 +1,7 @@
 package com.example.tarot;
 
-import android.graphics.drawable.Drawable;
-
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
-import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = "cards")
@@ -20,14 +17,14 @@ public class Card {
     @ColumnInfo(name = "drawable")
     private int draw;
 
-    @ColumnInfo(name = "drawable_large")
-    private int draw_large;
+    @ColumnInfo(name = "description")
+    private String description;
 
-    public Card(int id, String name, int draw, int draw_large) {
+    public Card(int id, String name, int draw, String description) {
         this.id = id;
         this.name = name;
         this.draw = draw;
-        this.draw_large = draw_large;
+        this.description = description;
     }
 
     public int getId() {
@@ -42,7 +39,7 @@ public class Card {
         return draw;
     }
 
-    public int getDraw_large() {
-        return draw_large;
+    public String getDescription() {
+        return description;
     }
 }
