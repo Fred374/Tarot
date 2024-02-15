@@ -23,7 +23,7 @@ public class FiveCardSpreadActivity extends AppCompatActivity {
         int[] vws = {R.id.card1, R.id.card2, R.id.card3, R.id.card4, R.id.card5};
         int[] txtVws = {R.id.card1_text, R.id.card2_text, R.id.card3_text, R.id.card4_text, R.id.card5_text};
         int[] imgVws = {R.id.card1_image, R.id.card2_image, R.id.card3_image, R.id.card4_image, R.id.card5_image};
-        NavigableSet<Integer> vals = new TreeSet();
+        NavigableSet<Integer> vals = new TreeSet<>();
         while (vals.size() < 5) {
             vals.add((int) (Math.random() * 78));
         }

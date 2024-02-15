@@ -30,9 +30,7 @@ public class CardUtil {
             }
             buffer.close();
             in.close();
-            exec.execute(() -> {
-                repo.insertAll(cards);
-            });
+            exec.execute(() -> repo.insertAll(cards));
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

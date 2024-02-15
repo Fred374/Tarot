@@ -23,7 +23,7 @@ public class ThreeCardSpreadActivity extends AppCompatActivity {
         int[] vws = {R.id.card1, R.id.card2, R.id.card3};
         int[] txtVws = {R.id.card1_text, R.id.card2_text, R.id.card3_text};
         int[] imgVws = {R.id.card1_image, R.id.card2_image, R.id.card3_image};
-        NavigableSet<Integer> vals = new TreeSet();
+        NavigableSet<Integer> vals = new TreeSet<>();
         while (vals.size() < 3) {
             vals.add((int) (Math.random() * 78));
         }

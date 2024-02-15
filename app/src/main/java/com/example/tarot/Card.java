@@ -9,16 +9,16 @@ public class Card {
 
     @PrimaryKey
     @ColumnInfo(name = "id")
-    private int id;
+    private final int id;
 
     @ColumnInfo(name = "name")
-    private String name;
+    private final String name;
 
     @ColumnInfo(name = "drawable")
-    private int draw;
+    private final int draw;
 
     @ColumnInfo(name = "description")
-    private String description;
+    private final String description;
 
     public Card(int id, String name, int draw, String description) {
         this.id = id;

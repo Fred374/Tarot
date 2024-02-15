@@ -19,9 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Executor exec = Executors.newFixedThreadPool(4);
         repo.getAll().observe(this, card -> {
             if (card.size() != 78) {
-                exec.execute(() -> {
-                    repo.deleteAll();
-                });
+                exec.execute(repo::deleteAll);
                 CardUtil.seedDatabase(this.getApplication());
             }
         });

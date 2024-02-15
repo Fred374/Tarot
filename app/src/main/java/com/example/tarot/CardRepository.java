@@ -8,8 +8,8 @@ import java.util.List;
 
 public class CardRepository {
 
-    CardsDatabase db;
-    CardDao dao;
+    final CardsDatabase db;
+    final CardDao dao;
 
     public CardRepository(Application app) {
         db = CardsDatabase.getDatabase(app);
@@ -22,10 +22,6 @@ public class CardRepository {
 
     public LiveData<List<Card>> getAll() {
         return dao.getAll();
-    }
-
-    public void insertAll(Card... cards) {
-        dao.insertAll(cards);
     }
 
     public void insertAll(List<Card> cards) {

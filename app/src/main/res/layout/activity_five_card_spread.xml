@@ -25,7 +25,6 @@
                 android:id="@+id/card4_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
-                android:text="Page of Wands"
                 android:textAlignment="center" />
 
             <ImageView
@@ -54,8 +53,7 @@
             <TextView
                 android:id="@+id/card1_text"
                 style="@style/card_small_text"
-                android:layout_weight="2"
-                android:text="Queen of Wands" />
+                android:layout_weight="2" />
 
             <ImageView
                 android:id="@+id/card1_image"
@@ -74,8 +72,7 @@
             <TextView
                 android:id="@+id/card2_text"
                 style="@style/card_small_text"
-                android:layout_weight="2"
-                android:text="King of Wands" />
+                android:layout_weight="2" />
 
             <ImageView
                 android:id="@+id/card2_image"
@@ -94,8 +91,7 @@
             <TextView
                 android:id="@+id/card3_text"
                 style="@style/card_small_text"
-                android:layout_weight="2"
-                android:text="Knight of Wands" />
+                android:layout_weight="2" />
 
             <ImageView
                 android:id="@+id/card3_image"
@@ -124,7 +120,6 @@
                 android:id="@+id/card5_text"
                 style="@style/card_small_text"
                 android:layout_weight="2"
-                android:text="Ace of Wands"
                 android:textAlignment="center" />
 
             <ImageView
