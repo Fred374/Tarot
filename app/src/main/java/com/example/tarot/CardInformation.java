@@ -7,7 +7,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
+
+import java.util.Objects;
 
 public class CardInformation extends AppCompatActivity {
 
@@ -15,8 +18,14 @@ public class CardInformation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_information);
+
+        Toolbar tb = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(tb);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+
         Intent i = getIntent();
         int id = i.getIntExtra("card_id", 0);
+
         CardRepository repo = new CardRepository(getApplication());
         repo.getCard(id).observe(this, card -> {
             if (card != null) {
