@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@Database(entities = {Card.class}, version = 7)
+@Database(entities = {Card.class}, version = 1)
 public abstract class CardsDatabase extends RoomDatabase {
 
     private static volatile CardsDatabase db;
