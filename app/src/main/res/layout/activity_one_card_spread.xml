@@ -4,13 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout_margin="10dp"
     android:orientation="vertical"
     tools:context=".OneCardSpreadActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar" />
+
     <LinearLayout
         android:id="@+id/card1"
-        style="@style/card_large">
+        style="@style/card_large"
+        android:onClick="onClick">
 
         <TextView
             android:id="@+id/card1_text"
