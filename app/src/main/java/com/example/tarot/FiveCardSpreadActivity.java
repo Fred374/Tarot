@@ -69,7 +69,7 @@ public class FiveCardSpreadActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         System.out.println(item.getItemId());
         switch (item.getItemId()) {
-            case 0:
+            case R.id.info:
                 LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
                 View popupView = inflater.inflate(R.layout.popup_window, null);
                 TextView txt = popupView.findViewById(R.id.info_text);

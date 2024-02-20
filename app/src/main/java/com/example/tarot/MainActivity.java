@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
@@ -29,12 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(tb);
         CardRepository repo = new CardRepository(this.getApplication());
         Executor exec = Executors.newFixedThreadPool(4);
-        repo.getAll().observe(this, card -> {
-            if (card.size() != 78) {
-                exec.execute(repo::deleteAll);
-                CardUtil.seedDatabase(this.getApplication());
-            }
-        });
+        exec.execute(repo::deleteAll);
+        CardUtil.seedDatabase(this.getApplication());
     }
 
     @Override
@@ -46,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case 0:
+            case R.id.info:
                 LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
                 View popupView = inflater.inflate(R.layout.popup_window, null);
                 TextView txt = popupView.findViewById(R.id.info_text);
